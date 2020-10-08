@@ -1,5 +1,9 @@
-var num1 = 5;
-var num2 = 6;
-var count = (num1/num2);
+var alertString;
+alertString = addString('WebCamp');
 
-alert(num1 + '÷' + num2 + '=' + count);
+alert(alertString);
+
+function addString(strA){
+  var addStr = 'Hello ' + strA;
+  return addStr;
+}
